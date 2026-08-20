@@ -1,0 +1,89 @@
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+
+export default function Header() {
+  const pathName = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const links = [
+    { href: "#work", label: "Work" },
+    { href: "#services", label: "Services" },
+    { href: "#about", label: "About" },
+    { href: "#contacts", label: "Contacts" },
+  ];
+
+  return (
+    <>
+      <nav
+        className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
+          isScrolled ? "bg-white/80 backdrop-blur-md" : "bg-transparent"
+        }`}
+      >
+        <div className="flex items-center justify-between p-2 px-4">
+          <h1>
+            <Link
+              href="/"
+              className="whitespace-nowrap text-[16px] font-semibold sm:text-[20px]"
+            >
+              MAX'S BUILDS
+            </Link>
+          </h1>
+
+          <div className="hidden items-center gap-6 md:flex">
+            {links.map((link) => {
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-[10px] min-[340px]:text-[12px] sm:text-[16px] transition-all duration-300"
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
+          </div>
+          <button
+            type="button"
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isMenuOpen}
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+            className="flex h-10 w-10 items-center justify-center rounded-lg text-2xl md:hidden"
+          >
+            {isMenuOpen ? "×" : "☰"}
+          </button>
+        </div>
+        {isMenuOpen && (
+          <div className="border-t border-gray-200 px-4 pb-4 md:hidden">
+            <div className="flex flex-col">
+              {links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="border-b border-gray-100 py-4 text-sm transition-colors last:border-b-0"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </nav>
+    </>
+  );
+}
