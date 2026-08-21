@@ -8,11 +8,13 @@ type projectCardProps = {
 export default function ProjectCard({ project }: projectCardProps) {
   return (
     <article className="group border-1 border-red-500">
-      <div className="relative aspect-[16/10] overflow-hidden rounded-3xl">
+      <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
         <Image
           src={project.images[0]}
           alt={project.title}
           fill
+          quality={60}
+          sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
@@ -20,7 +22,9 @@ export default function ProjectCard({ project }: projectCardProps) {
         <div>
           <h3>{project.title}</h3>
           <p>{project.description}</p>
-          <p>{project.technologies}</p>
+          <p className="text-sm text-gray-500">
+            {project.technologies.join(" · ")}
+          </p>
         </div>
       </div>
     </article>
