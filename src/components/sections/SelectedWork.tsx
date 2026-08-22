@@ -8,7 +8,7 @@ export default function SelectedWork() {
     <section id="work" className="py-14 sm:py-16 lg:py-20">
       <Container>
         <div>
-          <p className="mb-4 uppercase tracking-widest text-gray-500">
+          <p className="text-sm uppercase tracking-widest text-gray-500">
             Selected works
           </p>
 

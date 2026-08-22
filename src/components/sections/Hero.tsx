@@ -9,7 +9,7 @@ export default function Hero() {
     >
       <Container>
         <div className="max-w-5xl">
-          <p className="mb-4 uppercase tracking-widest text-gray-500">
+          <p className="text-sm uppercase tracking-widest text-gray-500">
             Freelance Web Developer
           </p>
 
