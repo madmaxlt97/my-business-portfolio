@@ -18,14 +18,15 @@ export default function ProjectCard({ project }: projectCardProps) {
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
-      <div className="mt-4 flex items-start justify-between gap-4">
-        <div>
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-          <p className="text-sm text-gray-500">
-            {project.technologies.join(" · ")}
-          </p>
-        </div>
+
+      <div className="mt-4">
+        <h3 className="text-xl font-semibold tracking-tight">
+          {project.title}
+        </h3>
+        <p className="mt-1 text-gray-600">{project.description}</p>
+        <p className="mt-3 text-sm text-gray-500">
+          {project.technologies.join(" · ")}
+        </p>
       </div>
     </article>
   );

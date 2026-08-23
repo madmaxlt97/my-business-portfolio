@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <div className="grid gap-12 md:grid-cols-2">
           <div></div>
-          <div className="max-w-xl">
+          <div className="max-w-xl md:self-end">
             <p className="text-lg leading-relaxed text-gray-700">
               I've worked directly with both customers and businesses, so I
               understand that a website has a job to do — not just look good.
