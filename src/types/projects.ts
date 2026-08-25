@@ -4,5 +4,5 @@ export type Project = {
   description: string;
   images: string[];
   technologies: string[];
-  href?: string;
+  url?: string;
 };

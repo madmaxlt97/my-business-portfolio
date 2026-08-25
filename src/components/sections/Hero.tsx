@@ -1,4 +1,3 @@
-"use client";
 import Container from "@/components/ui/Container";
 
 export default function Hero() {
@@ -24,9 +23,12 @@ export default function Hero() {
 
           <a
             href="#contacts"
-            className="mt-10 inline-flex items-center rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-transform duration-300 hover:scale-105"
+            className="group mt-10 inline-flex items-center rounded-full bg-black gap-3 px-6 py-3 text-sm font-medium text-white transition-transform duration-300 hover:scale-105"
           >
-            Let's work together →
+            <span> Let's work together</span>
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+              ↗
+            </span>
           </a>
         </div>
       </Container>

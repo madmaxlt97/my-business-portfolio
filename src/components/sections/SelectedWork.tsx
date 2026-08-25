@@ -17,7 +17,7 @@ export default function SelectedWork() {
           </h2>
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
+        <div className="mt-12 grid gap-12 md:grid-cols-2 md:gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

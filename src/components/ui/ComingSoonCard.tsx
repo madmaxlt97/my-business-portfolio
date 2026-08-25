@@ -1,9 +1,9 @@
 export default function ComingSoonCard() {
   return (
     <article className="group">
-      <div className="relative flex aspect-[16/9] items-center justify-center overflow-hidden rounded-3xl bg-gray-100 transition-colors duration-500 group-hover:bg-gray-200">
+      <div className="relative flex aspect-[16/9] items-center justify-center overflow-hidden rounded-3xl bg-gray-100 border border-black/5 transition-colors duration-500 group-hover:bg-gray-200">
         <div className="text-center">
-          <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
+          <p className="text-sm uppercase tracking-[0.2em] text-gray-600">
             Next project
           </p>
 
@@ -14,7 +14,7 @@ export default function ComingSoonCard() {
         <h3 className="text-xl font-semibold tracking-tight">
           Something new is coming
         </h3>
-        <p className="mt-1 text-gray-500">Currently in development.</p>
+        <p className="mt-1 text-gray-600">Currently in development.</p>
       </div>
     </article>
   );

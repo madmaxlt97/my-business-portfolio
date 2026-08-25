@@ -2,12 +2,12 @@
 
 ## Main Page
 
-- [ ] Hero
-- [ ] About
-- [ ] Services
-- [ ] Projects
-- [ ] Contact
-- [ ] Footer
+- [x] Hero
+- [x] About
+- [x] Services
+- [x] Projects
+- [x] Contact
+- [x] Footer
 
 ## Polish
 

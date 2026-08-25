@@ -7,6 +7,6 @@ export const projects: Project[] = [
     description: "A modern website for an event planning and decoration studio",
     images: ["/event-masters/event-masters-hero.avif"],
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    href: "#",
+    url: "https://event-masters-six.vercel.app/",
   },
 ];

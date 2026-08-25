@@ -36,14 +36,12 @@ export default function Header() {
       }`}
     >
       <div className="flex items-center justify-between py-2 px-4">
-        <h1>
-          <Link
-            href="/"
-            className="whitespace-nowrap text-[16px] font-semibold sm:text-[20px]"
-          >
-            MAX'S BUILDS
-          </Link>
-        </h1>
+        <Link
+          href="/"
+          className="whitespace-nowrap text-[16px] font-semibold sm:text-[20px]"
+        >
+          MAX'S BUILDS
+        </Link>
 
         <div className="hidden items-center gap-6 md:flex">
           {links.map((link) => {

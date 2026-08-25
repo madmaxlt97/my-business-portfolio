@@ -8,7 +8,7 @@ type projectCardProps = {
 export default function ProjectCard({ project }: projectCardProps) {
   return (
     <article className="group">
-      <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+      <div className="relative aspect-[16/9] overflow-hidden rounded-3xl border border-black/5">
         <Image
           src={project.images[0]}
           alt={project.title}
@@ -27,6 +27,17 @@ export default function ProjectCard({ project }: projectCardProps) {
         <p className="mt-3 text-sm text-gray-500">
           {project.technologies.join(" · ")}
         </p>
+        <a
+          href={project.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center gap-2 text-sm font-medium transition-opacity duration-300 hover:opacity-60"
+        >
+          Visit website
+          <span className="transition-transform duration-300 group-hover:translate-x-1">
+            ↗
+          </span>
+        </a>
       </div>
     </article>
   );
