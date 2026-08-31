@@ -22,9 +22,17 @@ export default function About() {
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-700">
-              From the first idea to the final pixel, I focus on clarity,
-              performance and creating an experience that makes your business
-              easy to understand.
+              Every business is different. That's why I don't believe in
+              one-size-fits-all websites. I take the time to understand what you
+              do, who you're trying to reach, and what your website needs to
+              achieve.
+            </p>
+
+            <p className="mt-6 text-lg leading-relaxed text-gray-700">
+              Whether you need a simple landing page or a complete business
+              website, I focus on clear structure, thoughtful design and
+              performance — so your visitors know what you offer and what to do
+              next.
             </p>
           </div>
         </div>

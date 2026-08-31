@@ -18,7 +18,7 @@ export default function Hero() {
 
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-gray-600 sm:text-xl">
             From first idea to final pixel, I build fast, modern websites
-            designed around your business.
+            designed around your business and your goals.
           </p>
 
           <a

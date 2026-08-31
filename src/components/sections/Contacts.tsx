@@ -10,7 +10,7 @@ export default function Contacts() {
           </p>
 
           <h2 className="mt-6 text-6xl font-semibold leading-[0.95] tracking-tight sm:text-7xl lg:text-9xl">
-            Have an idea?
+            Have a project in mind?
             <br />
             Let's build it.
           </h2>

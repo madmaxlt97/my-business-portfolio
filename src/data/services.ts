@@ -16,6 +16,6 @@ export const services: Service[] = [
     number: "03",
     title: "Website Redesign",
     description:
-      "Give an outdated website a modern, fast and responsive experience.",
+      "Turn an outdated website into a modern, fast and responsive experience.",
   },
 ];
