@@ -2,18 +2,25 @@ import ComingSoonCard from "../ui/ComingSoonCard";
 import Container from "../ui/Container";
 import ProjectCard from "../ui/ProjectCard";
 import { projects } from "@/data/projects";
+import { translations, type Locale } from "@/i18n";
 
-export default function SelectedWork() {
+type SelectedWorkProps = {
+  locale: Locale;
+};
+
+export default function SelectedWork({ locale }: SelectedWorkProps) {
+  const t = translations[locale];
+
   return (
     <section id="work" className="py-14 sm:py-16 lg:py-20">
       <Container>
         <div>
           <p className="text-sm uppercase tracking-widest text-gray-500">
-            Selected works
+            {t.selectedWork.eyebrow}
           </p>
 
           <h2 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-            A selection of projects I've build - and what's coming next
+            {t.selectedWork.title}
           </h2>
         </div>
 
