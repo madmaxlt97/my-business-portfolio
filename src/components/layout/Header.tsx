@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { scrollToSection } from "@/utils/navigation";
 import { translations, type Locale } from "@/i18n";
 import LanguageSwitcher from "../ui/LanguageSwitcher";

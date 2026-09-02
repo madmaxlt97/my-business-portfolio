@@ -1,4 +1,4 @@
-import { title } from "process";
+import type { Translation } from "./types";
 
 export const en = {
   //------ Header & Footer
@@ -99,4 +99,4 @@ export const en = {
       "Have an idea for the website? Tell me about it and let's see what we can build together.",
     button: "Start a project",
   },
-};
+} satisfies Translation;

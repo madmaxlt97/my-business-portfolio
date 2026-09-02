@@ -1,3 +1,5 @@
+import type { Translation } from "./types";
+
 export const lt = {
   //------ Header
 
@@ -97,4 +99,4 @@ export const lt = {
       "Turite idėją interneto svetainei? Papasakokite apie ją ir kartu nuspręsime, ką galime sukurti.",
     button: "Pradėkime projektą",
   },
-};
+} satisfies Translation;

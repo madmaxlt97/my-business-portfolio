@@ -1,9 +1,10 @@
 import { en } from "./en";
 import { lt } from "./lt";
+import type { Translation } from "./types";
 
-export const translations = {
+export const translations: Record<"en" | "lt", Translation> = {
   en,
   lt,
 };
 
-export type Locale = keyof typeof translations;
+export type Locale = "en" | "lt";
