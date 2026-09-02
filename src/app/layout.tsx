@@ -17,6 +17,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MAX'S BUILDS — Freelance Web Developer",
   description: "I build fast, modern websites designed around your business.",
+  metadataBase: new URL("https://maxsbuilds.com"),
+  openGraph: {
+    title: "MAX'S BUILDS — Freelance Web Developer",
+    description: "I build fast, modern websites designed around your business.",
+    type: "website",
+    siteName: "MAX'S BUILDS",
+  },
 };
 
 export default function RootLayout({
