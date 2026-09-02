@@ -26,10 +26,10 @@ export default function SelectedWork({ locale }: SelectedWorkProps) {
 
         <div className="mt-12 grid gap-12 md:grid-cols-2 md:gap-8">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard key={project.id} project={project} locale={locale} />
           ))}
 
-          <ComingSoonCard />
+          <ComingSoonCard locale={locale} />
         </div>
       </Container>
     </section>

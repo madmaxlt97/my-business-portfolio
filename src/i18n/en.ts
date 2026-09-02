@@ -1,6 +1,14 @@
 import { title } from "process";
 
 export const en = {
+  //------ Header & Footer
+  header: {
+    work: "Work",
+    services: "Services",
+    about: "About",
+    contacts: "Contacts",
+  },
+
   //------ Hero section
   hero: {
     eyebrow: "Freelance Web Developer",
@@ -12,7 +20,33 @@ export const en = {
   //------ Selected Works section
   selectedWork: {
     eyebrow: "Selected works",
-    title: "A selection of projects I've build - and what's coming next",
+    title: "A selection of projects I've built - and what's coming next",
+  },
+  //------- Project cards
+  projects: {
+    visitWebsite: "Visit website",
+
+    items: {
+      "event-masters": {
+        title: "Event Masters",
+        description:
+          "A modern website designed to help an event studio showcase its services and turn visitors into potential clients.",
+      },
+
+      "mano-servisas": {
+        title: "Mano servisas",
+        description:
+          "A service-focused website built to showcase an auto repair shop and make booking effortless.",
+      },
+    },
+  },
+
+  //--------- Coming Soon Card
+  comingSoon: {
+    nextProject: "Next project",
+    title: "Coming soon",
+    descriptionTitle: "Something new is coming",
+    description: "Currently in development.",
   },
   //--------- Service section
   services: {

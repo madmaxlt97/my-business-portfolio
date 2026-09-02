@@ -3,11 +3,16 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { scrollToSection } from "@/utils/navigation";
+import { translations, type Locale } from "@/i18n";
 
 export default function Header() {
   const pathName = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const locale: Locale = pathName.startsWith("/lt") ? "lt" : "en";
+
+  const t = translations[locale];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,10 +27,10 @@ export default function Header() {
   }, []);
 
   const links = [
-    { id: "work", label: "Work" },
-    { id: "services", label: "Services" },
-    { id: "about", label: "About" },
-    { id: "contacts", label: "Contacts" },
+    { id: "work", label: t.header.work },
+    { id: "services", label: t.header.services },
+    { id: "about", label: t.header.about },
+    { id: "contacts", label: t.header.contacts },
   ];
 
   return (
@@ -38,7 +43,7 @@ export default function Header() {
     >
       <div className="flex items-center justify-between py-2 px-4">
         <Link
-          href="/"
+          href={`/${locale}`}
           className="whitespace-nowrap text-[16px] font-semibold sm:text-[20px]"
         >
           MAX'S BUILDS

@@ -1,4 +1,13 @@
 export const lt = {
+  //------ Header
+
+  header: {
+    work: "Darbai",
+    services: "Paslaugos",
+    about: "Apie mane",
+    contacts: "Kontaktai",
+  },
+  //------ Hero section
   hero: {
     eyebrow: "Freelance Web Developer",
     title: "Jūsų verslas nusipelno geresnės interneto svetainės",
@@ -6,11 +15,38 @@ export const lt = {
       "Nuo pirmos idėjos iki paskutinio pikselio kuriu greitas, modernias interneto svetaines, pritaikytas jūsų verslui.",
     button: "Kurkime drauge",
   },
+
+  //------ Selected Works section
   selectedWork: {
     eyebrow: "Atrinkti darbai",
     title: "Projektai, kuriuos sukūriau — ir tai, kas laukia toliau",
   },
+  //------- Project cards
+  projects: {
+    visitWebsite: "Peržiūrėti svetainę",
 
+    items: {
+      "event-masters": {
+        title: "Event Masters",
+        description:
+          "Moderni interneto svetainė, skirta renginių studijai pristatyti savo paslaugas ir pritraukti potencialių klientų.",
+      },
+
+      "mano-servisas": {
+        title: "Mano servisas",
+        description:
+          "Paslaugų svetainė, skirta automobilių servisui pristatyti savo paslaugas ir palengvinti registraciją.",
+      },
+    },
+  },
+  //--------- Coming Soon Card
+  comingSoon: {
+    nextProject: "Kitas projektas",
+    title: "Jau greitai",
+    descriptionTitle: "Netrukus laukia kažkas naujo",
+    description: "Šiuo metu kuriama.",
+  },
+  //--------- Service section
   services: {
     eyebrow: "Paslaugos",
     title: "Ką galiu sukurti jūsų verslui",
