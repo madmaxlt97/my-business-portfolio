@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import { scrollToSection } from "@/utils/navigation";
 
 export default function Header() {
   const pathName = usePathname();
@@ -21,10 +22,10 @@ export default function Header() {
   }, []);
 
   const links = [
-    { href: "#work", label: "Work" },
-    { href: "#services", label: "Services" },
-    { href: "#about", label: "About" },
-    { href: "#contacts", label: "Contacts" },
+    { id: "work", label: "Work" },
+    { id: "services", label: "Services" },
+    { id: "about", label: "About" },
+    { id: "contacts", label: "Contacts" },
   ];
 
   return (
@@ -46,13 +47,14 @@ export default function Header() {
         <div className="hidden items-center gap-6 md:flex">
           {links.map((link) => {
             return (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-[10px] min-[340px]:text-[12px] sm:text-[16px] transition-all duration-300"
+              <button
+                key={link.id}
+                type="button"
+                onClick={() => scrollToSection(link.id)}
+                className="text-[10px] min-[340px]:text-[12px] sm:text-[16px] transition-all duration-300 cursor-pointer"
               >
                 {link.label}
-              </Link>
+              </button>
             );
           })}
         </div>
@@ -70,14 +72,17 @@ export default function Header() {
         <div className="border-t border-gray-200 px-4 pb-4 md:hidden">
           <div className="flex flex-col">
             {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setIsMenuOpen(false)}
+              <button
+                key={link.id}
+                type="button"
+                onClick={() => {
+                  scrollToSection(link.id);
+                  setIsMenuOpen(false);
+                }}
                 className="border-b border-gray-100 py-4 text-sm transition-colors last:border-b-0"
               >
                 {link.label}
-              </Link>
+              </button>
             ))}
           </div>
         </div>

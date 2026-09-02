@@ -1,38 +1,36 @@
 import Container from "../ui/Container";
+import { translations, type Locale } from "@/i18n";
 
-export default function About() {
+type AboutProps = {
+  locale: Locale;
+};
+
+export default function About({ locale }: AboutProps) {
+  const t = translations[locale];
   return (
     <section id="about" className="py-14 sm:py-16 lg:py-20">
       <Container>
         <div className="mb-16">
           <p className="text-sm uppercase tracking-widest text-gray-500">
-            Built for business
+            {t.about.eyebrow}
           </p>
           <h2 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-            I don't just build websites. I build digital experiences around the
-            business behind them.
+            {t.about.title}
           </h2>
         </div>
         <div className="grid gap-12 md:grid-cols-2">
           <div></div>
           <div className="max-w-xl md:self-end">
             <p className="text-lg leading-relaxed text-gray-700">
-              I've worked directly with both customers and businesses, so I
-              understand that a website has a job to do — not just look good.
+              {t.about.description}
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-700">
-              Every business is different. That's why I don't believe in
-              one-size-fits-all websites. I take the time to understand what you
-              do, who you're trying to reach, and what your website needs to
-              achieve.
+              {t.about.description2}
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-700">
-              Whether you need a simple landing page or a complete business
-              website, I focus on clear structure, thoughtful design and
-              performance — so your visitors know what you offer and what to do
-              next.
+              {t.about.description3}
             </p>
           </div>
         </div>

@@ -30,8 +30,8 @@ export default async function Home({ params }: PageProps) {
       <Hero locale={locale} />
       <SelectedWork locale={locale} />
       <Services locale={locale} />
-      <About />
-      <Contacts />
+      <About locale={locale} />
+      <Contacts locale={locale} />
     </>
   );
 }

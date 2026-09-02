@@ -36,4 +36,29 @@ export const lt = {
       },
     ],
   },
+  //--------- About section
+  about: {
+    eyebrow: "Sukurta verslui",
+
+    title:
+      "Kuriu ne tiesiog interneto svetaines. Kuriu skaitmeninę patirtį, paremtą jūsų verslo poreikiais.",
+
+    description:
+      "Tiesiogiai dirbau tiek su klientais, tiek su verslais, todėl suprantu, kad interneto svetainė turi atlikti savo funkciją — ne tik gerai atrodyti.",
+
+    description2:
+      "Kiekvienas verslas yra skirtingas. Todėl netikiu universaliu sprendimu, tinkančiu visiems. Skiriu laiko suprasti, kuo užsiimate, ką norite pasiekti ir kokią užduotį turi atlikti jūsų interneto svetainė.",
+
+    description3:
+      "Nesvarbu, ar jums reikia paprasto nukreipimo puslapio, ar išsamios verslo svetainės — daugiausia dėmesio skiriu aiškiai struktūrai, apgalvotam dizainui ir našumui, kad lankytojai iš karto suprastų, ką siūlote ir ką turėtų daryti toliau.",
+  },
+  //---------- Contact (CTA) section
+  contact: {
+    eyebrow: "Kurkime drauge",
+    title: "Turite idėją projektui?",
+    title2: "Sukurkime jį kartu.",
+    description:
+      "Turite idėją interneto svetainei? Papasakokite apie ją ir kartu nuspręsime, ką galime sukurti.",
+    button: "Pradėkime projektą",
+  },
 };
