@@ -4,27 +4,15 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { scrollToSection } from "@/utils/navigation";
 import { translations, type Locale } from "@/i18n";
+import LanguageSwitcher from "../ui/LanguageSwitcher";
 
 export default function Header() {
   const pathName = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   const locale: Locale = pathName.startsWith("/lt") ? "lt" : "en";
 
   const t = translations[locale];
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   const links = [
     { id: "work", label: t.header.work },
@@ -34,13 +22,7 @@ export default function Header() {
   ];
 
   return (
-    <nav
-      className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
-        isScrolled
-          ? "border-b border-black/5 bg-white/80 backdrop-blur-md"
-          : "bg-transparent"
-      }`}
-    >
+    <nav className="fixed top-0 left-0 z-50 w-full border-b border-black/5 bg-white/80 backdrop-blur-md">
       <div className="flex items-center justify-between py-2 px-4">
         <Link
           href={`/${locale}`}
@@ -62,6 +44,7 @@ export default function Header() {
               </button>
             );
           })}
+          <LanguageSwitcher />
         </div>
         <button
           type="button"
@@ -89,6 +72,9 @@ export default function Header() {
                 {link.label}
               </button>
             ))}
+            <div className="border-t border-gray-100 pt-4">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
       )}
