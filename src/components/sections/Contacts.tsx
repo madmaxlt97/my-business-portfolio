@@ -27,7 +27,7 @@ export default function Contacts({ locale }: ContactProps) {
           </p>
 
           <a
-            href="mailto:nikolajevmax.workspace@gmail.com"
+            href="mailto:hello@maxsbuilds.com"
             className="group mt-10 inline-flex items-center rounded-full gap-3 bg-black px-7 py-4 text-sm font-medium text-white transition-transform duration-300 hover:scale-105"
           >
             <span>{t.contact.button}</span>
