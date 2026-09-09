@@ -12,6 +12,7 @@ export type Translation = {
   header: {
     work: string;
     services: string;
+    prices: string;
     about: string;
     contacts: string;
   };

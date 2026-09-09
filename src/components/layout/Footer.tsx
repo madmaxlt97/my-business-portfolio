@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { scrollToSection } from "@/utils/navigation";
 import { translations, type Locale } from "@/i18n";
 import { usePathname } from "next/navigation";
@@ -33,6 +32,12 @@ export default function Footer() {
             className="transition-colors hover:text-black cursor-pointer"
           >
             {t.header.services}
+          </button>
+          <button
+            onClick={() => scrollToSection("prices")}
+            className="transition-colors hover:text-black cursor-pointer"
+          >
+            {t.header.prices}
           </button>
           <button
             onClick={() => scrollToSection("about")}

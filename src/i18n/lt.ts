@@ -8,6 +8,7 @@ export const lt = {
     services: "Paslaugos",
     about: "Apie mane",
     contacts: "Kontaktai",
+    prices: "Kainos",
   },
   //------ Hero section
   hero: {

@@ -7,6 +7,7 @@ export const en = {
     services: "Services",
     about: "About",
     contacts: "Contacts",
+    prices: "Prices",
   },
 
   //------ Hero section
