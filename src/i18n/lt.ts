@@ -74,6 +74,51 @@ export const lt = {
       },
     ],
   },
+  //-------- Pricing
+  prices: {
+    eyebrow: "Kainos",
+    title: "Paprasta kainodara. Jokių netikėtumų.",
+
+    items: [
+      {
+        title: "Nukreipimo puslapiai",
+        price: "Nuo €300",
+        description:
+          "Tiksliniai puslapiai konkrečiam produktui, paslaugai ar kampanijai.",
+      },
+      {
+        title: "Verslo svetainės",
+        price: "Nuo €500",
+        description:
+          "Modernios svetainės, pritaikytos jūsų verslui, klientams ir tikslams.",
+      },
+      {
+        title: "Svetainės atnaujinimas",
+        price: "Nuo €400",
+        description:
+          "Atnaujinkite pasenusią svetainę švaresniu dizainu, geresne vartotojo patirtimi ir didesniu našumu.",
+      },
+    ],
+    includes: {
+      title: "Į kiekvieną svetainę įeina:",
+      items: [
+        "Individualus prisitaikantis dizainas",
+        "Optimizavimas mobiliesiems įrenginiams",
+        "Kontaktų forma",
+        "Bazinis SEO paruošimas",
+        "Našumo optimizavimas",
+        "Svetainės paleidimas",
+        "Tiesioginis bendravimas su programuotoju",
+      ],
+    },
+    note: "Galutinė kaina priklauso nuo projekto apimties ir reikalavimų.",
+    cta: {
+      title: "Nežinote, ko jums reikia?",
+      description:
+        "Papasakokite apie savo verslą, o aš pasiūlysiu tinkamiausią sprendimą.",
+      button: "Aptarkime",
+    },
+  },
   //--------- About section
   about: {
     eyebrow: "Sukurta verslui",

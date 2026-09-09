@@ -74,7 +74,51 @@ export const en = {
       },
     ],
   },
+  //-------- Pricing
+  prices: {
+    eyebrow: "Pricing",
+    title: "Simple pricing. No surprises.",
 
+    items: [
+      {
+        title: "Landing Pages",
+        price: "From €300",
+        description:
+          "Focused pages for a specific product, service or campaign.",
+      },
+      {
+        title: "Business Websites",
+        price: "From €500",
+        description:
+          "Modern websites built around your business, your customers and your goals.",
+      },
+      {
+        title: "Website Redesign",
+        price: "From €400",
+        description:
+          "Give an outdated website a cleaner design, better UX and stronger performance.",
+      },
+    ],
+    includes: {
+      title: "Every website includes:",
+      items: [
+        "Custom responsive design",
+        "Mobile optimization",
+        "Contact form",
+        "Basic SEO setup",
+        "Performance optimization",
+        "Deployment",
+        "Direct communication with the developer",
+      ],
+    },
+    note: "Final pricing depends on the scope and requirements of your project.",
+    cta: {
+      title: "Not sure what you need?",
+      description:
+        "Tell me about your business and I'll recommend the right approach.",
+      button: "Let's talk",
+    },
+  },
   //--------- About section
   about: {
     eyebrow: "Built for business",

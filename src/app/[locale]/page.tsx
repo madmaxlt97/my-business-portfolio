@@ -7,6 +7,7 @@ import SelectedWork from "@/components/sections/SelectedWork";
 import Services from "@/components/sections/Services";
 
 import { translations, type Locale } from "@/i18n";
+import Prices from "@/components/sections/Prices";
 
 type PageProps = {
   params: Promise<{
@@ -30,6 +31,7 @@ export default async function Home({ params }: PageProps) {
       <Hero locale={locale} />
       <SelectedWork locale={locale} />
       <Services locale={locale} />
+      <Prices locale={locale} />
       <About locale={locale} />
       <Contacts locale={locale} />
     </>

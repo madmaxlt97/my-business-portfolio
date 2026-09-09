@@ -16,7 +16,7 @@ export default function Contacts({ locale }: ContactProps) {
             {t.contact.eyebrow}
           </p>
 
-          <h2 className="mt-6 text-6xl font-semibold leading-[0.95] tracking-tight sm:text-7xl lg:text-9xl">
+          <h2 className="mt-6 max-w-4xl text-4xl font-semibold leading-[0.95] tracking-tight sm:text-5xl lg:text-7xl">
             {t.contact.title}
             <br />
             {t.contact.title2}
@@ -28,7 +28,7 @@ export default function Contacts({ locale }: ContactProps) {
 
           <a
             href="mailto:hello@maxsbuilds.com"
-            className="group mt-10 inline-flex items-center rounded-full gap-3 bg-black px-7 py-4 text-sm font-medium text-white transition-transform duration-300 hover:scale-105"
+            className="group mt-10 inline-flex items-center gap-3 rounded-full bg-black px-7 py-4 text-sm font-medium text-white transition-transform duration-300 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
           >
             <span>{t.contact.button}</span>
             <span className="transition-transform duration-300 group-hover:translate-x-1">

@@ -28,7 +28,7 @@ export default function Hero({ locale }: HeroProps) {
 
           <a
             href="#contacts"
-            className="group mt-10 inline-flex items-center rounded-full bg-black gap-3 px-6 py-3 text-sm font-medium text-white transition-transform duration-300 hover:scale-105"
+            className="group mt-10 inline-flex items-center gap-3 rounded-full bg-black px-7 py-4 text-sm font-medium text-white transition-transform duration-300 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
           >
             <span> {t.hero.button}</span>
             <span className="transition-transform duration-300 group-hover:translate-x-1">

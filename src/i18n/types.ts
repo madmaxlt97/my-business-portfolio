@@ -47,6 +47,26 @@ export type Translation = {
     }[];
   };
 
+  prices: {
+    eyebrow: string;
+    title: string;
+    items: {
+      title: string;
+      price: string;
+      description: string;
+    }[];
+    includes: {
+      title: string;
+      items: string[];
+    };
+    note: string;
+    cta: {
+      title: string;
+      description: string;
+      button: string;
+    };
+  };
+
   about: {
     eyebrow: string;
     title: string;
