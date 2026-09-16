@@ -15,12 +15,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MAX'S BUILDS — Freelance Web Developer",
-  description: "I build fast, modern websites designed around your business.",
+  title: "Freelance Web Developer in Vilnius | Max's Builds",
+  description:
+    "Freelance web developer in Vilnius building fast, modern websites for businesses and personal brands.",
+  alternates: {
+    canonical: "/",
+  },
   metadataBase: new URL("https://maxsbuilds.com"),
   openGraph: {
-    title: "MAX'S BUILDS — Freelance Web Developer",
-    description: "I build fast, modern websites designed around your business.",
+    title: "Freelance Web Developer in Vilnius | Max's Builds",
+    description:
+      "Freelance web developer in Vilnius building fast, modern websites for businesses and personal brands.",
     type: "website",
     siteName: "MAX'S BUILDS",
   },
