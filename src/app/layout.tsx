@@ -20,13 +20,6 @@ export const metadata: Metadata = {
     "Freelance web developer in Vilnius building fast, modern websites for businesses and personal brands.",
 
   metadataBase: new URL("https://maxsbuilds.com"),
-  openGraph: {
-    title: "Freelance Web Developer in Vilnius | Max's Builds",
-    description:
-      "Freelance web developer in Vilnius building fast, modern websites for businesses and personal brands.",
-    type: "website",
-    siteName: "MAX'S BUILDS",
-  },
 };
 
 export default function RootLayout({
