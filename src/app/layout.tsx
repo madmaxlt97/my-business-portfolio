@@ -18,9 +18,7 @@ export const metadata: Metadata = {
   title: "Freelance Web Developer in Vilnius | Max's Builds",
   description:
     "Freelance web developer in Vilnius building fast, modern websites for businesses and personal brands.",
-  alternates: {
-    canonical: "/",
-  },
+
   metadataBase: new URL("https://maxsbuilds.com"),
   openGraph: {
     title: "Freelance Web Developer in Vilnius | Max's Builds",
