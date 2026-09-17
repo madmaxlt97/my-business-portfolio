@@ -50,14 +50,13 @@ export async function generateMetadata({
     };
   } else {
     return {
-      title: "Freelance Web Developer in Vilnius | Max's Builds",
+      title: "Interneto svetainių kūrėjas Vilniuje | Max's Builds",
       description:
-        "Freelance web developer Vilniuje, kuriantis greitas, modernias interneto svetaines verslui ir asmeniniams prekių ženklams.",
+        "Interneto svetainių kūrėjas Vilniuje, kuriantis greitas, modernias interneto svetaines verslui ir asmeniniams prekių ženklams.",
       openGraph: {
-        title:
-          "Laisvai samdomas interneto svetainių kūrėjas Vilniuje | Max's Builds",
+        title: "Interneto svetainių kūrėjas Vilniuje | Max's Builds",
         description:
-          "Internetinių svetainių kūrėjas Vilniuje, kuriantis greitas, modernias interneto svetaines verslui ir asmeniniams prekių ženklams.",
+          "Interneto svetainių kūrėjas Vilniuje, kuriantis greitas, modernias interneto svetaines verslui ir asmeniniams prekių ženklams.",
         url: "/lt",
         type: "website",
         siteName: "MAX'S BUILDS",
