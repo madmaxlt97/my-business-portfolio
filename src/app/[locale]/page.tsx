@@ -34,6 +34,10 @@ export async function generateMetadata({
         "Freelance web developer in Vilnius building fast, modern websites for businesses and personal brands.",
       alternates: {
         canonical: "/en",
+        languages: {
+          en: "/en",
+          lt: "/lt",
+        },
       },
     };
   } else {
@@ -43,6 +47,10 @@ export async function generateMetadata({
         "Freelance web developer Vilniuje, kuriantis greitas, modernias interneto svetaines verslui ir asmeniniams prekių ženklams.",
       alternates: {
         canonical: "/lt",
+        languages: {
+          en: "/en",
+          lt: "/lt",
+        },
       },
     };
   }
