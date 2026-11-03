@@ -1,5 +1,4 @@
 import Container from "../ui/Container";
-import { services } from "@/data/services";
 import ServiceItem from "../ui/ServiceItem";
 import { translations, type Locale } from "@/i18n";
 

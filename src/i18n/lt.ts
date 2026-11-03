@@ -75,6 +75,44 @@ export const lt = {
       },
     ],
   },
+  //-------- How I work
+  howIWork: {
+    eyebrow: "Kaip dirbame",
+    title: "Paprastas procesas – nuo idėjos iki paleidimo",
+    steps: [
+      {
+        number: "01",
+        title: "Poreikių aptarimas",
+        description:
+          "Aptariame jūsų verslą, tikslus, tikslinę auditoriją ir idėjas, kad suprasčiau, kokios svetainės jums reikia.",
+      },
+      {
+        number: "02",
+        title: "Nemokama koncepcija",
+        description:
+          "Per 2–3 dienas parengiu preliminarią svetainės koncepciją, kad galėtumėte įvertinti mano požiūrį dar prieš nuspręsdami dėl projekto.",
+      },
+      {
+        number: "03",
+        title: "Sąlygų suderinimas ir avansas",
+        description:
+          "Jei koncepcija jums patinka, suderiname darbų apimtį, terminus ir galutinę kainą. 20 % avansas patvirtina projekto pradžią.",
+      },
+      {
+        number: "04",
+        title: "Dizainas ir kūrimas",
+        description:
+          "Patvirtintą koncepciją paverčiu pilnai veikiančia, prisitaikančia svetaine ir informuoju jus apie darbų eigą.",
+      },
+      {
+        number: "05",
+        title: "Peržiūra ir paleidimas",
+        description:
+          "Peržiūrite parengtą svetainę, atlieku sutartus pakeitimus, o gavęs likusį mokėjimą – paleidžiu svetainę.",
+      },
+    ],
+  },
+
   //-------- Pricing
   prices: {
     eyebrow: "Kainos",

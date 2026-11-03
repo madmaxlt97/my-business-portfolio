@@ -75,6 +75,43 @@ export const en = {
       },
     ],
   },
+  //-------- How I work
+  howIWork: {
+    eyebrow: "How I Work",
+    title: "A simple process, from idea to launch",
+    steps: [
+      {
+        number: "01",
+        title: "Discovery",
+        description:
+          "We discuss your business, goals, target audience and ideas to understand what your website needs.",
+      },
+      {
+        number: "02",
+        title: "Free Concept",
+        description:
+          "Within 2–3 days, I create a preliminary website concept so you can see my approach before committing to the project.",
+      },
+      {
+        number: "03",
+        title: "Agreement & Deposit",
+        description:
+          "If you like the concept, we agree on the project scope, timeline and final price. A 20% deposit confirms the start of the project.",
+      },
+      {
+        number: "04",
+        title: "Design & Development",
+        description:
+          "I turn the approved concept into a fully functional, responsive website, keeping you updated throughout the process.",
+      },
+      {
+        number: "05",
+        title: "Review & Launch",
+        description:
+          "You review the finished website, I make the agreed adjustments, and once the remaining payment is completed, your website goes live.",
+      },
+    ],
+  },
   //-------- Pricing
   prices: {
     eyebrow: "Pricing",

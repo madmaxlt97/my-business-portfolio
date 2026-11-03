@@ -48,6 +48,18 @@ export type Translation = {
     }[];
   };
 
+  /*---------------------- How I work ---*/
+
+  howIWork: {
+    eyebrow: string;
+    title: string;
+    steps: {
+      number: string;
+      title: string;
+      description: string;
+    }[];
+  };
+
   prices: {
     eyebrow: string;
     title: string;

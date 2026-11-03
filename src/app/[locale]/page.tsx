@@ -6,10 +6,10 @@ import Contacts from "@/components/sections/Contacts";
 import Hero from "@/components/sections/Hero";
 import SelectedWork from "@/components/sections/SelectedWork";
 import Services from "@/components/sections/Services";
+import HowIWork from "@/components/sections/HowIWork";
 
 import { translations, type Locale } from "@/i18n";
 import Prices from "@/components/sections/Prices";
-import { en } from "@/i18n/en";
 
 type PageProps = {
   params: Promise<{
@@ -86,6 +86,7 @@ export default async function Home({ params }: PageProps) {
       <Hero locale={locale} />
       <SelectedWork locale={locale} />
       <Services locale={locale} />
+      <HowIWork locale={locale} />
       <Prices locale={locale} />
       <About locale={locale} />
       <Contacts locale={locale} />
