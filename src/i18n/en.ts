@@ -172,6 +172,50 @@ export const en = {
       "Whether you need a simple landing page or a complete business website, I focus on clear structure, thoughtful design and performance — so your visitors know what you offer and what to do next.",
   },
 
+  //---------- FAQ
+
+  faq: {
+    eyebrow: "FAQ",
+    title: "Got questions? I've got answers.",
+    items: [
+      {
+        question: "How much does a website cost?",
+        answer:
+          "Website prices start at €300 for landing pages, €500 for business websites, and €400 for website redesigns. The final price depends on the project's scope, functionality, and specific requirements. I'll discuss your needs with you before confirming the price.",
+      },
+      {
+        question: "How long does it take to build a website?",
+        answer:
+          "It depends on the complexity of the project, the required content, and feedback during development. Once we discuss your requirements, I'll provide an estimated timeline before the project begins.",
+      },
+      {
+        question: "What do you need from me to get started?",
+        answer:
+          "Just an idea of what you need your website to achieve. We'll discuss your business, goals, and target audience together. If you already have text, images, branding, or examples you like, those can help too.",
+      },
+      {
+        question: "Will my website work on mobile devices?",
+        answer:
+          "Yes. Every website I build is designed to work across mobile phones, tablets, and desktop screens, providing a consistent experience on different devices.",
+      },
+      {
+        question: "Can I request changes during development?",
+        answer:
+          "Of course. Your feedback is part of the process. We'll agree on the project scope and review the website together. Requests that go beyond the agreed scope may affect the price and timeline.",
+      },
+      {
+        question: "Do I need to pay for hosting and a domain separately?",
+        answer:
+          "Yes. Domain registration and hosting are separate ongoing costs, unless otherwise agreed. I can help you choose and set them up so your website is ready to go live.",
+      },
+      {
+        question: "Can I see a concept before committing to the project?",
+        answer:
+          "Yes. I offer a free preliminary website concept within 2–3 days, so you can see my approach before deciding whether to proceed. This is an initial concept, not a fully developed website. The timeframe depends on receiving the information needed to get started.",
+      },
+    ],
+  },
+
   //---------- Contact (CTA) section
   contact: {
     eyebrow: "Let's work together",

@@ -48,7 +48,7 @@ export type Translation = {
     }[];
   };
 
-  /*---------------------- How I work ---*/
+  //---------------------- How I work
 
   howIWork: {
     eyebrow: string;
@@ -87,7 +87,15 @@ export type Translation = {
     description2: string;
     description3: string;
   };
-
+  //--------- FAQ
+  faq: {
+    eyebrow: string;
+    title: string;
+    items: {
+      question: string;
+      answer: string;
+    }[];
+  };
   contact: {
     eyebrow: string;
     title: string;

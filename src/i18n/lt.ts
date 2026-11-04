@@ -174,6 +174,52 @@ export const lt = {
     description3:
       "Nesvarbu, ar jums reikia paprasto nukreipimo puslapio, ar išsamios verslo svetainės — daugiausia dėmesio skiriu aiškiai struktūrai, apgalvotam dizainui ir našumui, kad lankytojai iš karto suprastų, ką siūlote ir ką turėtų daryti toliau.",
   },
+
+  //---------- FAQ
+
+  faq: {
+    eyebrow: "DUK",
+    title: "Turite klausimų? Turiu atsakymų.",
+    items: [
+      {
+        question: "Kiek kainuoja svetainė?",
+        answer:
+          "Nukreipimo puslapių kainos prasideda nuo 300 €, verslo svetainių – nuo 500 €, o svetainių atnaujinimo – nuo 400 €. Galutinė kaina priklauso nuo projekto apimties, funkcionalumo ir konkrečių poreikių. Prieš patvirtindamas kainą, aptarsiu su jumis projekto reikalavimus.",
+      },
+      {
+        question: "Kiek laiko užtrunka sukurti svetainę?",
+        answer:
+          "Tai priklauso nuo projekto sudėtingumo, reikalingo turinio ir grįžtamojo ryšio kūrimo metu. Aptaręs jūsų poreikius, prieš pradėdamas darbus pateiksiu numatomą terminą.",
+      },
+      {
+        question: "Ko reikia norint pradėti?",
+        answer:
+          "Pakanka turėti idėją, ką jūsų svetainė turėtų padėti pasiekti. Kartu aptarsime jūsų verslą, tikslus ir tikslinę auditoriją. Jei jau turite tekstų, nuotraukų, prekės ženklo elementų ar patinkančių pavyzdžių, jie taip pat pravers.",
+      },
+      {
+        question: "Ar svetainė veiks mobiliuosiuose įrenginiuose?",
+        answer:
+          "Taip. Kiekvieną mano kuriamą svetainę pritaikau mobiliesiems telefonams, planšetėms ir kompiuteriams, kad ja būtų patogu naudotis skirtinguose įrenginiuose.",
+      },
+      {
+        question: "Ar galėsiu prašyti pakeitimų kūrimo metu?",
+        answer:
+          "Žinoma. Jūsų grįžtamasis ryšys yra svarbi proceso dalis. Iš anksto suderiname projekto apimtį ir kartu peržiūrime svetainę. Pakeitimai, nepatenkantys į sutartą apimtį, gali turėti įtakos kainai ir terminams.",
+      },
+      {
+        question: "Ar už domeną ir talpinimą reikia mokėti atskirai?",
+        answer:
+          "Taip. Domeno registracija ir svetainės talpinimas paprastai yra atskiros periodinės išlaidos, nebent susitariame kitaip. Galiu padėti pasirinkti šias paslaugas ir jas paruošti, kad svetainę būtų galima paleisti.",
+      },
+      {
+        question:
+          "Ar galiu pamatyti koncepciją prieš nuspręsdamas dėl projekto?",
+        answer:
+          "Taip. Per 2–3 dienas parengiu nemokamą preliminarią svetainės koncepciją, kad galėtumėte įvertinti mano požiūrį prieš nuspręsdami tęsti projektą. Tai pradinė koncepcija, o ne visiškai sukurta svetainė. Terminas priklauso nuo to, kaip greitai gaunu darbui pradėti reikalingą informaciją.",
+      },
+    ],
+  },
+
   //---------- Contact (CTA) section
   contact: {
     eyebrow: "Kurkime drauge",

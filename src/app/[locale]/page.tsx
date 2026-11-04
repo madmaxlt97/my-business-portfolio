@@ -7,6 +7,7 @@ import Hero from "@/components/sections/Hero";
 import SelectedWork from "@/components/sections/SelectedWork";
 import Services from "@/components/sections/Services";
 import HowIWork from "@/components/sections/HowIWork";
+import FAQ from "@/components/sections/FAQ";
 
 import { translations, type Locale } from "@/i18n";
 import Prices from "@/components/sections/Prices";
@@ -89,6 +90,7 @@ export default async function Home({ params }: PageProps) {
       <HowIWork locale={locale} />
       <Prices locale={locale} />
       <About locale={locale} />
+      <FAQ locale={locale} />
       <Contacts locale={locale} />
     </>
   );
